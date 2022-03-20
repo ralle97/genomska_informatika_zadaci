@@ -1,1 +1,1 @@
-# genomska_informatika_dz2
+# Genomska Informatika
