@@ -1,5 +1,7 @@
-#Burrows-Wheeler Transform and FM Index
+# Burrows-Wheeler Transform and FM Index
+Ovaj projekat predstavlja implementaciju osnosvnog Burrows-Wheeler algoritma i FMIndeksa, kao i daljih nadogradnji. Kod je pokriven sa unit i performance testovima. Takodje je napravljena i prezentacija koja analizira sve prethodno uradjeno kao i rezultate u vidu vremena izvrsavanja i memorijskog zauzeca izmedju osnovnog algoritma i nadogradjene varijante. 
 
+# Pregled
 * U data direktorijumu se nalaze 3 test seta nad kojima su sprovedeni benchmark testovi
 * U memTest direktorijumu se nalaze testovi zauzeca memorije
 * U sais direktorijumu se nalaze fajlovi za dalju nadogradnju algoritma pomocu SAIS SuffixArray
@@ -15,10 +17,8 @@
 * Dok se unit testovi nalaze u FMIndexTest.ipynb
 * Kod za dalju nadogradnju pomocu SAIS algoritma se nalaze u SAIS.ipynb
 
-#Instalacija
+# Instalacija
 U jupyter notebook-u je potrebno pokrenuti !python -m pip install pydivsufsort, kako bi se instalirala biblioteka koja se koristi u kodu
 
-#Video prezentacija
+# Video prezentacija
 https://www.youtube.com/watch?v=hXuvTvzvfUE
-
-
